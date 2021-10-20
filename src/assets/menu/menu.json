@@ -1,0 +1,105 @@
+{
+    "data": [
+        {
+            "name": "Navigation",
+            "meta": ["general"],
+            "children": [
+                {
+                    "name": "Dashboard",
+                    "to": "#"
+                }
+            ]
+        },
+        {
+            "name": "About Us",
+            "meta": ["general"],
+            "children": [
+                {
+                    "name": "Introduction",
+                    "to": "/#"
+                },
+                {
+                    "name": "Mission & Vision",
+                    "to": "/#"
+                },
+                {
+                    "name": "Product & Sources",
+                    "to": "/#"
+                },
+                {
+                    "name": "Quality Control",
+                    "to": "/#"
+                },
+                {
+                    "name": "Transportation",
+                    "to": "/#"
+                },
+                {
+                    "name": "Branding & Marketing",
+                    "to": "/#"
+                },
+                {
+                    "name": "Training & Advancement",
+                    "to": "/#"
+                }
+            ]
+        },
+        {
+            "name": "Support",
+            "meta": ["support"],
+            "children": [
+                {
+                    "name": "Services",
+                    "href": "#"
+                },
+                {
+                    "name": "Contact Us",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "name": "System Module",
+            "meta": ["form"],
+            "children": [
+                {
+                    "name": "vCard QR Code",
+                    "meta": ["treetable"],
+                    "children": [
+                        {
+                            "name": "QR Code Generator",
+                            "to": "/treetable"
+                        },
+                        {
+                            "name": "Static",
+                            "to": "/treetable/responsive"
+                        },
+                        {
+                            "name": "Dynamic",
+                            "to": "/treetable/responsive"
+                        }
+            ]
+        },
+        {
+            "name": "Chat / Messages",
+            "meta": ["messages"],
+            "children": [
+                {
+                    "name": "Message",
+                    "to": "/message"
+                },
+                {
+                    "name": "Software",
+                    "to": "/autocomplete",
+                    "badge":"Updates"
+                    }
+            ]
+        },
+                {
+                    "name": "Terminal",
+                    "to": "/terminal"
+                }
+            ]
+        }
+    ]
+}
